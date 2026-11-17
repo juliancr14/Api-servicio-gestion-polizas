@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: servicioPolizas
+  jpa:
+    defer-datasource-initialization: true
+  h2:
+    console:
+      enabled: true
+
+app:
+  api-key: 123456
+  ipc-percentage: 5.2
+  core:
+    base-url: http://localhost:8080
